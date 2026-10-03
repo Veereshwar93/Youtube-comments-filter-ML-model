@@ -44,24 +44,6 @@ The models are evaluated using metrics such as:
 - F1-score
 - ROC-AUC
 
-## Final Prediction
-
-After comparing the models, the project uses the saved Random Forest model for testing new, unseen comments.
-
-New comments are first transformed using the trained TF-IDF vectorizer and then passed to the Random Forest classifier.
-
-Example:
-
-```text
-New YouTube Comment
-        ↓
-TF-IDF Vectorization
-        ↓
-Random Forest
-        ↓
-Spam / Not Spam
-```
-
 ## Technologies Used
 
 - Python
