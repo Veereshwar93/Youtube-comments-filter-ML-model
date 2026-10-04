@@ -1,4 +1,4 @@
-# Youtube-comments-filter-ML-model
+# Youtube-spam-comments-detector-ML-model
 
 ## Overview
 
